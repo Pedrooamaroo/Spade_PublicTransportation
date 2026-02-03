@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
 ## 🎯 Project Overview
-**Spade_PublicTransportation** is a decentralized simulation of an urban public transportation system. Unlike traditional centralized schedulers, this project utilizes **Agent-Oriented Programming (AOP)** where every entity—station, vehicle, passenger, and traffic light—is an autonomous agent.
+**Spade_PublicTransportation** is a decentralized simulation of an urban public transportation system. Unlike traditional centralized schedulers, this project utilizes **Agent-Oriented Programming (AOP)** where every entity, station, vehicle, passenger, and traffic light, is an autonomous agent.
 
 The system solves the **Dynamic Vehicle Routing Problem (DVRP)** using the **Contract Net Protocol (CNP)**. Vehicles bid for passengers based on their current location, fuel status, and route constraints, creating a self-organizing logistics network that adapts to breakdowns and traffic jams in real-time.
 
