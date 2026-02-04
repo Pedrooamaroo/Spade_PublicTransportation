@@ -64,6 +64,6 @@ You need an XMPP server (e.g., ejabberd or Prosody) or use a public server like 
 
 ### 2. Setup
 ```bash
-git clone [https://github.com/Pedrooamaroo/TransitNet-MAS.git](https://github.com/Pedrooamaroo/TransitNet-MAS.git)
-cd TransitNet-MAS
+git clone [https://github.com/Pedrooamaroo/Spade_PublicTransportation.git](https://github.com/Pedrooamaroo/Spade_PublicTransportation.git)
+cd Spade_PublicTransportation
 pip install -r requirements.txt
