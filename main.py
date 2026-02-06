@@ -5,6 +5,8 @@ Creates and starts agents and manages the simulation loop.
 
 import asyncio
 import random
+import os
+from dotenv import load_dotenv
 from agents.station import StationAgent
 from agents.vehicle import VehicleAgent
 from agents.passenger import PassengerAgent
@@ -20,9 +22,9 @@ async def main():
     """
     print("--- 🏙️ OPTIMIZED SIMULATION (FULL DOCUMENTATION) 🏙️ ---")
 
-    SERVER = "jabb.im"
-    PASSWORD = "PublicTransportation"
-    PREFIX = "pedro"
+    SERVER = os.getenv("XMPP_SERVER", "jabb.im")
+    PREFIX = os.getenv("XMPP_PREFIX", "pedro")
+    PASSWORD = os.getenv("XMPP_PASSWORD")
 
     dash_jid = f"{PREFIX}_dashboard@{SERVER}"
     dashboard = DashboardAgent(dash_jid, PASSWORD)
