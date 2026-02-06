@@ -20,6 +20,8 @@ async def main():
     """
     Main simulation function.
     """
+    load_dotenv()
+    
     print("--- 🏙️ OPTIMIZED SIMULATION (FULL DOCUMENTATION) 🏙️ ---")
 
     SERVER = os.getenv("XMPP_SERVER", "jabb.im")
@@ -164,4 +166,5 @@ async def main():
         await traffic_manager.stop()
 
 if __name__ == "__main__":
+
     asyncio.run(main())
