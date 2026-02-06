@@ -20,4 +20,5 @@ pytz
 pandas
 
 # Password
-dotenv
+
+python-dotenv
