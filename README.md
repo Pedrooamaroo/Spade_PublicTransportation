@@ -67,7 +67,7 @@ You need an XMPP server (e.g., ejabberd or Prosody) or use a public server like 
 git clone [https://github.com/Pedrooamaroo/Spade_PublicTransportation.git](https://github.com/Pedrooamaroo/Spade_PublicTransportation.git)
 cd Spade_PublicTransportation
 pip install -r requirements.txt
-´´´
+```
 
 ### 3. Configuration
 Before running the simulation, you must configure your XMPP credentials.
